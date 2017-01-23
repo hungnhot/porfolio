@@ -1,0 +1,151 @@
+{
+  "personal-details": {
+    "name":     "Hung Tran-Viet",
+    "email":    "hungnhot45@gmail.com",
+    "phone":    "(+84)165 617 5335",
+    "birthday": "October 10th, 1991",
+    "address":  "Ho Chi Minh City, Vietnam",
+    "hobbies":  "Football, Badminton"
+  },
+  "skills-knowledge": {
+    "skills": [
+      { "name": "Ruby on Rails", "value": 80 },
+      { "name": "HTML & CSS",    "value": 75 },
+      { "name": "Javascript",    "value": 78 },
+      { "name": "MySQL",         "value": 75 },
+      { "name": "PostgreSQL",    "value": 70 },
+      { "name": "MongoDB",       "value": 70 },
+      { "name": "Git",           "value": 75 }
+    ],
+    "knowledge": [
+      { "name": "PHP" },
+      { "name": "HTML5 & CSS3" },
+      { "name": "Ajax" },
+      { "name": "JQuery" },
+      { "name": "Linux" },
+      { "name": "Bootstrap" },
+      { "name": "AWS" },
+      { "name": "Teamwork" },
+      { "name": "Handle issues" },
+      { "name": "Logical thinking" },
+      { "name": "Communication" },
+      { "name": "English" },
+      { "name": "Japanese (Beginning)" }
+    ]
+  },
+  "work-experience": [
+    {
+      "start-month":  "September",
+      "start-year":   "2016",
+      "end-month":    "",
+      "end-year":     "Present",
+      "company":      "GIANTY",
+      "position":     "Ruby on Rails Developer",
+      "description":  "<ul class='check'><li>Develop customer's websites with Ruby on Rails.</li><li>Work in Japanese enviroment</li><li>Communicate directly to Japanese manager.</li></ul>" 
+    },
+    {
+      "start-month":  "December",
+      "start-year":   "2014",
+      "end-month":    "September",
+      "end-year":     "2016",
+      "company":      "LARION COMPUTING",
+      "position":     "Ruby on Rails Developer",
+      "description":  "<ul class='check'><li>Develop, maintain websites, APIs with Ruby on Rails.</li><li>Deploy project to server, aws.</li><li>Work in Linux.</li><li>Proficient understanding of code versioning tool: Git.</li><li>Work with databases: MySQL, PostgreSQL, MongoDB.</li><li>Communicate directly to client for requirements.</li><li>Use Elance Tracker, Trello </li></ul>"
+    },
+    {
+      "start-month":  "December",
+      "start-year":   "2011",
+      "end-month":    "August",
+      "end-year":     "2012",
+      "company":      "WBB CONSULTING",
+      "position":     "PHP Developer",
+      "description":  "<ul class='check'><li>Develop the website with Joomla CMS.</li><li>Modify website's modules.</li><li>Communicate directly to client for requirements.</li></ul>"
+    }
+  ],
+  "educations": [
+    {
+      "start-month":  "March",
+      "start-year":   "2013",
+      "end-month":    "August",
+      "end-year":     "2014",
+      "university":   "UNIVERSITY OF SCIENCE",
+      "speciality":   "Software Engineer",
+      "description":  "GPA: 8/10"
+    },
+    {
+      "start-month":  "October",
+      "start-year":   "2009",
+      "end-month":    "August",
+      "end-year":     "2012",
+      "university":   "CAO THANG COLLEGE",
+      "speciality":   "Software Engineer",
+      "description":  "GPA: 7/10<br/><ul class='check'><li>“PHP Programming Technique” Certificate – University of Sciences.</li><li>“HTML5 and CSS3” Certificate – University of Sciences.</li></ul>"
+    }
+  ],
+  "projects": [
+    {
+      "id":             "1",
+      "group":          "ror",
+      "link-image":     "portfolio/agento.jpg",
+      "project-title":  "Agento",
+      "sub-title":      "API - Backend",
+      "description":    "A mobile app for buying/senlling/renting house.<ul class='check'><li>Ruby on Rails</li><li>Websocket</li><li>HTML/CSS</li><li>JQuery</li><li>Bootstrap</li><li>MySQL</li><li>Git</li><li>APIs Twilio</li></ul>",
+      "link":           "http://agentoapp.com/"
+    },
+    {
+      "id":             "2",
+      "group":          "ror",
+      "link-image":     "portfolio/snappcv.jpg",
+      "project-title":  "SnappCV",
+      "sub-title":      "API - Backend",
+      "description":    "A mobile app for create Curriculum Vitae (CV) and Jobs.<ul class='check'><li>Ruby on Rails</li><li>HTML/CSS</li><li>JQuery</li><li>Bootstrap</li><li>PostgreSQL</li><li>Git</li></ul>",
+      "link":           ""
+    },
+    {
+      "id":             "3",
+      "group":          "php",
+      "link-image":     "portfolio/bidcarros.jpg",
+      "project-title":  "BidCarros",
+      "sub-title":      "Frontend - Backend",
+      "description":    "A website for buying/selling cars.<ul class='check'><li>PHP</li><li>Drupal CMS</li><li>HTML/CSS</li><li>JQuery</li><li>Bootstrap</li><li>MySQL</li><li>Git</li></ul>",
+      "link":           "http://bidcarros.rubyspace.net"
+    },
+    {
+      "id":             "4",
+      "group":          "ror",
+      "link-image":     "portfolio/mindmup.jpg",
+      "project-title":  "Mindmup",
+      "sub-title":      "Frontend - Backend",
+      "description":    "- MindMup is a zero-friction mind map canvas. <br />- This app is built base on Sinatra, depends on the MapJS javascript canvas for client side rendering. <br />- It uses Google Drive and Amazon S3 AWS service to store maps. <ul class='check'><li>Ruby</li><li>Sinatra</li><li>MySQL</li><li>HTML/CSS</li><li>JQuery</li><li>Bootstrap</li><li>AWS</li><li>Google Drive</li><li>Git</li></ul>",
+      "link":           ""
+    },
+    {
+      "id":             "5",
+      "group":          "ror",
+      "link-image":     "portfolio/printable.jpg",
+      "project-title":  "Printable",
+      "sub-title":      "Frontend - Backend",
+      "description":    "This application lets customers create their printable orders with various options about Stock, Size, Sides, Delivery Type, Proof Type, ...<ul class='check'><li>Ruby on Rails</li><li>HTML/CSS</li><li>JQuery</li><li>Bootstrap</li><li>MySQL</li><li>Big data</li><li>Git</li></ul>",
+      "link":           ""
+    },
+    {
+      "id":             "6",
+      "group":          "ror",
+      "link-image":     "portfolio/castlerock.jpg",
+      "project-title":  "Castle Rock",
+      "sub-title":      "Frontend - Backend",
+      "description":    "Maintain admin page for website: <a href='https://www.castlerockreo.com' target='_blank'>https://www.castlerockreo.com</a>.<ul class='check'><li>Ruby on Rails</li><li>HTML/CSS</li><li>JQuery</li><li>MongoDB</li><li>AWS</li><li>Git</li></ul>",
+      "link":           "https://team.castlerockreo.com"
+    },
+    {
+      "id":             "7",
+      "group":          "ror",
+      "link-image":     "portfolio/shoplinkz.jpg",
+      "project-title":  "Shoplinkz",
+      "sub-title":      "Frontend - Backend",
+      "description":    "- Maintain some customization features. <br />- Create rake file to get profile page of stores in each page: <a href='http://www.savings.com/' target='_blank'>savings.com</a>, <a href='https://www.retailmenot.com/' target='_blank'>retailmenot.com</a>, <a href='https://www.coupons.com/' target='_blank'>coupons.com</a>, <a href='https://www.ebates.com/' target='_blank'>ebates.com</a> and save to database.<ul class='check'><li>Ruby on Rails</li><li>HTML/CSS</li><li>JQuery</li><li>MySQL</li><li>Crawl data</li><li>Git</li></ul>",
+      "link":           "http://shoplinkz.com/"
+    }
+  ]
+  
+}

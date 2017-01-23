@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Page</title>
+    <meta name="description" content="Hung Tran Personal/Portfolio Template">
+    <meta name="keywords" content="personal template, portfolio template, creative, bootstrap, html5/css5">
+    <meta name="author" content="hungnhot">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google-Fonts
+    ================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+
+    
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body data-spy="scroll" data-offset="120">
+    <%= yield %>
+
+    <!-- Scroll top -->
+    <a href="#" class="back-to-top"> <i class="pe-7s-angle-up"></i></a>
+  </body>
+</html>
