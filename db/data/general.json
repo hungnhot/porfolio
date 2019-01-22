@@ -2,7 +2,7 @@
   "personal-details": {
     "name":     "Hung Tran-Viet",
     "email":    "hungnhot45@gmail.com",
-    "phone":    "(+84)165 617 5335",
+    "phone":    "(+84)96 175 3878",
     "birthday": "October 10th, 1991",
     "address":  "Ho Chi Minh City, Vietnam",
     "hobbies":  "Football, Badminton"
@@ -35,13 +35,22 @@
   },
   "work-experience": [
     {
-      "start-month":  "September",
-      "start-year":   "2016",
+      "start-month":  "April",
+      "start-year":   "2017",
       "end-month":    "",
       "end-year":     "Present",
+      "company":      "Evolable Asia",
+      "position":     "Senior Ruby on Rails Developer",
+      "description":  "<ul class='check'><li>Develop, maintain websites with Ruby on Rails.</li><li>Work in Japanese enviroment</li><li>Communicate directly to Japanese manager.</li></ul>"
+    },
+    {
+      "start-month":  "September",
+      "start-year":   "2016",
+      "end-month":    "April",
+      "end-year":     "2017",
       "company":      "GIANTY",
       "position":     "Ruby on Rails Developer",
-      "description":  "<ul class='check'><li>Develop customer's websites with Ruby on Rails.</li><li>Work in Japanese enviroment</li><li>Communicate directly to Japanese manager.</li></ul>" 
+      "description":  "<ul class='check'><li>Develop customer's websites with Ruby on Rails.</li><li>Work in Japanese enviroment</li><li>Communicate directly to Japanese manager.</li></ul>"
     },
     {
       "start-month":  "December",
@@ -145,7 +154,25 @@
       "sub-title":      "Frontend - Backend",
       "description":    "- Maintain some customization features. <br />- Create rake file to get profile page of stores in each page: <a href='http://www.savings.com/' target='_blank'>savings.com</a>, <a href='https://www.retailmenot.com/' target='_blank'>retailmenot.com</a>, <a href='https://www.coupons.com/' target='_blank'>coupons.com</a>, <a href='https://www.ebates.com/' target='_blank'>ebates.com</a> and save to database.<ul class='check'><li>Ruby on Rails</li><li>HTML/CSS</li><li>JQuery</li><li>MySQL</li><li>Crawl data</li><li>Git</li></ul>",
       "link":           "http://shoplinkz.com/"
+    },
+    {
+      "id":             "8",
+      "group":          "ror",
+      "link-image":     "portfolio/mery.jpg",
+      "project-title":  "mery",
+      "sub-title":      "Frontend - Backend",
+      "description":    "The website about fashion, review fashion's trend.<ul class='check'><li>Ruby on Rails</li><li>HTML/CSS</li><li>JQuery</li><li>Bootstrap</li><li>MySQL</li><li>Big data</li><li>Git</li></ul>",
+      "link":           "https://mery.jp"
+    },
+    {
+      "id":             "9",
+      "group":          "ror",
+      "link-image":     "portfolio/4travel.jpg",
+      "project-title":  "4travel",
+      "sub-title":      "Backend",
+      "description":    "The website about travel. Travelers will review their trips in this website.<ul class='check'><li>Ruby on Rails</li><li>MySQL</li><li>Big data</li><li>Git</li></ul>",
+      "link":           "http://4travel.jp/"
     }
   ]
-  
+
 }
