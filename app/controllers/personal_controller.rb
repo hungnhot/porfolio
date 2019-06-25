@@ -4,6 +4,7 @@ class PersonalController < ApplicationController
     file = File.read('db/data/general.json')
     content_file = JSON.parse(file)
 
+    @years = DateTime.now.year - 2015
     @personal_details = content_file['personal-details']
     @skills = content_file['skills-knowledge']["skills"]
     @knowledge = content_file['skills-knowledge']["knowledge"]
