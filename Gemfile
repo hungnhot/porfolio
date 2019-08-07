@@ -46,4 +46,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pg'
 
 gem 'sprockets', '~>3.7.2'
-gem 'sqlite3', '~> 1.3.13'
